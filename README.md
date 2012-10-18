@@ -1,9 +1,9 @@
 # [Ches(s]ms)
 #### Chess against a computer through SMS using Twilio.
 
-Author: Jahn Veach &lt;v64@v64.net&gt;
-License: Public domain
-Website: https://github.com/v64/chessms
+Author: Jahn Veach &lt;v64@v64.net&gt;  
+License: Public domain  
+Website: https://github.com/v64/chessms  
 
 ### Purpose
 This was hurriedly cobbled together from 6pm to 11:45pm on 10/17/2012 at the TwilioCon 2012 Hackathon. There are bugs, kludges, hardcoded paths, unused variables, multi-page functions, and other monstrosities in this codebase. Also, it works.
@@ -35,3 +35,6 @@ Couldn't have done it without these projects:
 * Stockfish Chess Engine: http://stockfishchess.org/
 
 I don't know what the licenses are on any of the above projects, so I'm throwing [Ches(s]ms) into the public domain for simplicity's sake. Enjoy!
+
+### Great Minds Think Alike
+Interestingly enough, [Chad Selph](https://github.com/chadselph) of Twilio heard about my project and by complete coincidence, he had also developed a Twilio chess SMS app called "ChesSMS". However, instead of a web interface for the board, he did some very clever work with Unicode to text you back a representation of the board!
