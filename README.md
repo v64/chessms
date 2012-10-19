@@ -1,4 +1,4 @@
-# [Ches(s]ms)
+# [Ches(s]ms) (chess emm ess)
 #### Chess against a computer through SMS using Twilio.
 
 Author: Jahn Veach &lt;v64@v64.net&gt;  
