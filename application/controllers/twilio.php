@@ -77,7 +77,7 @@ class Twilio extends CI_Controller {
             2 => array("pipe", "a")
         );
 
-        $cwd = '/Users/v64/Desktop/chessms/application/third_party/';
+        $cwd = '/Users/v64/Projects/chessms/application/third_party/';
         $engine = proc_open(dirname(__FILE__) . '/../third_party/stockfish', $spec, $pipes, $cwd);
         fwrite($pipes[0], 'setoption name OwnBook value book.bin' . "\n" . 'position fen ' . $board->renderFen() . "\n" . 'go depth 8');
         fclose($pipes[0]);
