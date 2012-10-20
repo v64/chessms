@@ -1,8 +1,5 @@
-# Dump of table games
-# ------------------------------------------------------------
-
 CREATE TABLE games (
-  id SERIAL,
+  id SERIAL PRIMARY KEY,
   player_1 integer NOT NULL,
   player_2 integer DEFAULT NULL,
   fen varchar(512) DEFAULT NULL,
@@ -11,11 +8,8 @@ CREATE TABLE games (
   last_move_timestamp timestamp NOT NULL DEFAULT current_timestamp
 );
 
-# Dump of table users
-# ------------------------------------------------------------
-
 CREATE TABLE users (
-  id SERIAL,
+  id SERIAL PRIMARY KEY,
   phone_number varchar(32) NOT NULL DEFAULT '',
   playing integer NOT NULL DEFAULT '1'
 );
