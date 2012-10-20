@@ -37,6 +37,7 @@ Couldn't have done it without these projects:
 * jChess: http://github.com/bmarini/jchess/
 * Games_Chess: http://pear.php.net/package/Games_Chess/
 * Stockfish Chess Engine: http://stockfishchess.org/
+* Hakre's PHP on Heroku tutorial: http://hakre.wordpress.com/2012/05/20/php-on-heroku-again/
 
 I don't know what the licenses are on any of the above projects, so I'm throwing [Ches(s]ms) into the public domain for simplicity's sake. Enjoy!
 
