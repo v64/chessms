@@ -50,6 +50,7 @@
         </div>
 
         <div class="container">
+            Check it out on GitHub: <a href="https://github.com/v64/chessms">https://github.com/v64/chessms</a><br /><br />
 
             <?php $this->view($template_contents); ?>
 
