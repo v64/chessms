@@ -16,7 +16,7 @@ Using Twilio and the Stockfish Chess Engine, you can text 'play' to 262-67-CHESS
 Here's an example text session:  
 Me texting 262-67-CHESS: play  
 [Ches(s]ms): Hello! Text back moves in algebraic notation (e4) or square to square (e2 e4). A URL for your game board is coming.  
-[Ches(s]ms): Here's the URL for your game board as promised: http://smschess.sparedev.com/game/njsef  
+[Ches(s]ms): Here's the URL for your game board as promised: http://chessms.v64.net/game/njsef  
 Me: c4  
 [Ches(s]ms): The computer replies e7 to e5. Your move!  
 Me: Nf3  
