@@ -2,8 +2,8 @@
 #### Chess against a computer through SMS using Twilio. Pronounced "chess emm ess".
 
 Author: Jahn Veach &lt;v64@v64.net&gt;  
-License: Public domain
-Demo: http://chessms.v64.net/
+License: Public domain  
+Demo: http://chessms.v64.net/  
 Source: https://github.com/v64/chessms  
 
 ### Purpose
