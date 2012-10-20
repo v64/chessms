@@ -8,8 +8,8 @@ class TwilioClient {
 		include(APPPATH.'/third_party/twilio/Twilio.php');
 
         // Define API tokens
-        define('ACCOUNT_SID', 'ACCOUNT_SID');
-        define('AUTH_TOKEN', 'AUTH_TOKEN');
+        define('ACCOUNT_SID', $_ENV['TWILIO_ACCOUNT_SID']);
+        define('AUTH_TOKEN', $_ENV['TWILIO_AUTH_TOKEN']);
 
         $this->client = new Services_Twilio(ACCOUNT_SID, AUTH_TOKEN);
     }

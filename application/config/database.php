@@ -48,11 +48,12 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'username';
-$db['default']['password'] = 'password';
-$db['default']['database'] = 'chessms';
-$db['default']['dbdriver'] = 'mysql';
+$db['default']['hostname'] = $_ENV['DB_HOST'];
+$db['default']['username'] = $_ENV['DB_USER'];
+$db['default']['password'] = $_ENV['DB_PASS'];
+$db['default']['database'] = $_ENV['DB_DATABASE'];
+$db['default']['port']     = $_ENV['DB_PORT'];
+$db['default']['dbdriver'] = 'postgre';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
