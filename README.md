@@ -2,8 +2,9 @@
 #### Chess against a computer through SMS using Twilio. Pronounced "chess emm ess".
 
 Author: Jahn Veach &lt;v64@v64.net&gt;  
-License: Public domain  
-Website: https://github.com/v64/chessms  
+License: Public domain
+Demo: http://chessms.v64.net/
+Source: https://github.com/v64/chessms  
 
 ### Purpose
 This was hurriedly cobbled together from 6pm to 11:45pm on 10/17/2012 at the TwilioCon 2012 Hackathon. There are bugs, kludges, hardcoded paths, unused variables, multi-page functions, and other monstrosities in this codebase. Also, it works.
@@ -16,7 +17,7 @@ Here's an example text session. If you'd like to try it yourself, text 'play' to
   
 Me texting 262-67-CHESS: play  
 [Ches(s]ms): Hello! Text back moves in algebraic notation (e4) or square to square (e2 e4). A URL for your game board is coming.  
-[Ches(s]ms): Here's the URL for your game board as promised: http://chessms.v64.net/game/njsef  
+[Ches(s]ms): Here's the URL for your game board as promised: http://chessms.v64.net/game/bksxy  
 Me: c4  
 [Ches(s]ms): The computer replies e7 to e5. Your move!  
 Me: Nf3  
