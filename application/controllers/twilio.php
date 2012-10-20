@@ -78,10 +78,10 @@ class Twilio extends CI_Controller {
         );
 
         $cwd = '/app/www/application/third_party/';
-        $engine = proc_open(dirname(__FILE__) . '/../third_party/stockfish', $spec, $pipes, $cwd);
-        fwrite($pipes[0], 'setoption name OwnBook value book.bin' . "\n" . 'position fen ' . $board->renderFen() . "\n" . 'go depth 8');
+        $engine = proc_open('/app/www/application/third_party/stockfish', $spec, $pipes, $cwd);
+        fwrite($pipes[0], 'setoption name OwnBook value true' . "\n" . 'position fen ' . $board->renderFen() . "\n" . 'go movetime 5000');
         fclose($pipes[0]);
-        sleep(5);
+        sleep(7);
         $move = stream_get_contents($pipes[1]);
         fclose($pipes[1]);
         fclose($pipes[2]);
