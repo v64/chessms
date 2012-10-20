@@ -18,10 +18,10 @@ Here's an example text session. If you'd like to try it yourself, text 'play' to
 Me texting 262-67-CHESS: play  
 [Ches(s]ms): Hello! Text back moves in algebraic notation (e4) or square to square (e2 e4). A URL for your game board is coming.  
 [Ches(s]ms): Here's the URL for your game board as promised: http://chessms.v64.net/game/bksxy  
+Me: d4  
+[Ches(s]ms): The computer replies g8 to f6. Your move!  
 Me: c4  
-[Ches(s]ms): The computer replies e7 to e5. Your move!  
-Me: Nf3  
-[Ches(s]ms): The computer replies b8 to c6. Your move!  
+[Ches(s]ms): The computer replies e7 to e6. Your move!  
 
 ### Acknowledgements
 Couldn't have done it without these projects:
