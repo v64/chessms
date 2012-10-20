@@ -15,7 +15,7 @@ class RedBean {
 		$db = $db[$active_group]['database'];
 
 		// Setup DB connection
-		R::setup("mysql:host=$host;dbname=$db", $user, $pass);
+		R::setup("pgsql:host=$host;dbname=$db", $user, $pass);
 
         // Disallow changing the database schema
         R::freeze(true);
