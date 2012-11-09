@@ -40,4 +40,4 @@ Couldn't have done it without these projects:
 I don't know what the licenses are on any of the above projects, so I'm throwing [Ches(s]ms) into the public domain for simplicity's sake. Enjoy!
 
 ### Great Minds Think Alike
-Interestingly enough, [Chad Selph](https://github.com/chadselph) of Twilio heard about my project and by complete coincidence, he had also developed a Twilio chess SMS app called "ChesSMS". However, instead of a web interface for the board, he did some very clever work with Unicode to text the board back to you!
+Interestingly enough, [Chad Selph](https://github.com/chadselph) of Twilio heard about my project and by complete coincidence, he had also developed a Twilio chess SMS app called [ChesSMS](https://github.com/twilio/chessms). However, instead of a web interface for the board, he did some very clever work with Unicode to text the board back to you! He talked about the [technical details](http://www.twilio.com/engineering/2012/11/08/adventures-in-unicode-sms) on Twilio's engineering blog.
